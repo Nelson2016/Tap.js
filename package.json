@@ -1,0 +1,32 @@
+{
+  "name": "tap.js",
+  "version": "1.0.0",
+  "description": "Independent click(tap) event for mobile terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nelson2016/Tap.js.git"
+  },
+  "keywords": [
+    "tap",
+    "tapjs",
+    "mobile",
+    "click",
+    "event"
+  ],
+  "author": "Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nelson2016/Tap.js/issues"
+  },
+  "homepage": "https://github.com/Nelson2016/Tap.js#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-uglify": "^2.1.2"
+  }
+}

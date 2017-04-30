@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="container" style="background: #f7f7f7;padding: 50px;">
+        container
+        <button id="btn" style="background: #fc0;">button</button>
+    </div>
+    <script src="dist/Tap.js"></script>
+<script>
+    document.getElementById("container").addEventListener('tap',function(e){
+        console.log('container tap')
+    })
+    document.getElementById("btn").addEventListener('tap',function(e){
+        console.log('button tap')
+    })
+</script>
+</body>
+</html>
